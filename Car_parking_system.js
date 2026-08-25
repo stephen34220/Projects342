@@ -49,14 +49,14 @@ if(discount_percentage === `No discount applied`){
     discount_applied = "$0";
 }
 console.log(`
-              VECHICLE PARKING SYSTEM
-    Vehicle Brand: ${Vehicle_brand}
-    Hours Parked: ${hours_parked}
-    Subtotal Before Discount: ${subtotal_before_discount}
-    Discount Applied: ${discount_applied}
-    Total Amount Due: ${total_amount_due}
-    Discount Percentage: ${discount_percentage}
-    Parking Fee Per Hour: ${parking_fee_per_hour}
-    Has Valid Membership: ${has_valid_membership}
-    Membership Type: ${membership_type}
+              VEHICLE PARKING SYSTEM
+    Vehicle Brand:                      ${Vehicle_brand}
+    Hours Parked:                       ${hours_parked}
+    Subtotal Before Discount:           ${subtotal_before_discount}
+    Discount Applied:                   ${discount_applied}
+    Total Amount Due:                   ${total_amount_due}
+    Discount Percentage:                ${discount_percentage}
+    Parking Fee Per Hour:               ${parking_fee_per_hour}
+    Has Valid Membership:               ${has_valid_membership}
+    Membership Type:                    ${membership_type}
     `)
